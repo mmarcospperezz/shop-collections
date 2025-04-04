@@ -26,9 +26,9 @@ public class Customer implements Comparable<Customer> {
         return compare;
     }
 
-    public Order findOrder (int id){
+    public Order findOrder (int orderId){
         for(Order order : orders){
-            if(order.getId() == id){
+            if(order.getOrderId() == orderId){
                 return order;
             }
         } return null;

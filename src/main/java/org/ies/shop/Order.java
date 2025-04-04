@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 public class Order {
-    private int id;
+    private int orderId;
     private LocalDate date;
     private double price;
     private List<Item> items;
